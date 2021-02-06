@@ -53,8 +53,9 @@ You will also see any lint errors in the console.
 
 ### Deployment
 
-Sign up on Heroku
-follow instruction to deploy on the Heroku: 
+- Sign up on Heroku
+- follow instruction to deploy on the Heroku: 
+
 [Deploy on Heroku](hhttps://github.com/mars/create-react-app-buildpack).
 
 ## Authors

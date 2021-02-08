@@ -1,5 +1,4 @@
-import operator from "./operate";
-
+import operator from './operate';
 
 const calculator = (() => {
   const calculate = (calculatorData, btnName) => {
@@ -59,9 +58,6 @@ const calculator = (() => {
   };
 
   return { calculate };
-    
-  
-  
 })();
 
 export default calculator;

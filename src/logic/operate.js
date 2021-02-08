@@ -1,4 +1,5 @@
 import Big from 'big.js';
+
 const operator = (() => {
   const operate = (numberOne, numberTwo, operation) => {
     if (operation === '+') {
@@ -11,7 +12,7 @@ const operator = (() => {
       if (numberTwo !== '0') {
         return Big(numberOne).div(Big(numberTwo));
       }
-// If numberTwo === 0, return Infinity
+      // If numberTwo === 0, return Infinity
       return '∞';
     }
     if (operation === 'x') {

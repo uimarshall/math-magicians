@@ -12,7 +12,6 @@ const operator = (() => {
       if (numberTwo !== '0') {
         return Big(numberOne).div(Big(numberTwo));
       }
-      // If numberTwo === 0, return Infinity
       return '∞';
     }
     if (operation === 'x') {

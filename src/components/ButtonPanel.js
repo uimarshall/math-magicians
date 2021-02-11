@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-function ButtonPanel() {
+function ButtonPanel({ clickHandler }) {
   return (
     <div>
       <div>

@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display() {
+function Display({ result }) {
   return (
-    <div />
+    <div>
+      <p>{result}</p>
+    </div>
   );
 }
 

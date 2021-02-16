@@ -2,7 +2,7 @@
 
 ### Milestone-one
 
-In this project milestone, it is required to build a very simple React application. .
+In this project milestone, it is required to build a very simple React application.
 This project is Math-magicians app that will help to build a simple product that would assist a company with their calculations..
 
 > ​
@@ -56,7 +56,7 @@ You will also see any lint errors in the console.
 - Sign up on Heroku
 - follow instruction to deploy on the Heroku: 
 
-[Deploy on Heroku](hhttps://github.com/mars/create-react-app-buildpack).
+[Deploy on Heroku](https://github.com/mars/create-react-app-buildpack).
 
 ## Authors
 

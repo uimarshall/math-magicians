@@ -14,7 +14,7 @@ const operator = (() => {
       }
       return '∞';
     }
-    if (operation === 'x') {
+    if (operation === 'X') {
       return Big(numberOne).times(Big(numberTwo));
     }
     if (numberOne === null) {
@@ -22,7 +22,6 @@ const operator = (() => {
     }
     return Big(numberOne).times(Big(numberTwo).times(0.01));
   };
-
   return { operate };
 })();
 

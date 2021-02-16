@@ -1,54 +1,54 @@
 import operator from './operate';
 
 const calculator = (() => {
-  const calculate = (calculatorData, btnName) => {
+  const calculate = (calculatorData, buttonName) => {
     let { total, next, operation } = calculatorData;
-    const operatorSymbols = ['+', '-', '÷', 'x', '%'];
-    if (btnName === 'AC' || total === '∞') {
+    const operators = ['+', '-', '÷', 'X', '%'];
+    if (buttonName === 'AC' || total === '∞') {
       total = null;
       next = null;
       operation = null;
-    } else if (btnName === '=') {
+    } else if (buttonName === '=') {
       if (total && next && operation) {
         total = operator.operate(total, next, operation);
         next = null;
         operation = null;
       }
-    } else if (operatorSymbols.includes(btnName)) {
-      if (btnName === '%') {
+    } else if (operators.includes(buttonName)) {
+      if (buttonName === '%') {
         if (!next) {
           next = total;
         }
-        operation = btnName;
+        operation = buttonName;
         total = operator.operate(null, next, operation);
         next = null;
         operation = null;
       } else if (total && next && operation) {
         total = operator.operate(total, next, operation);
-        operation = btnName;
+        operation = buttonName;
         next = null;
       } else if (next && !operation) {
         total = next;
-        operation = btnName;
+        operation = buttonName;
         next = null;
       } else {
-        operation = btnName;
+        operation = buttonName;
       }
-    } else if (btnName === '+/-') {
+    } else if (buttonName === '+/-') {
       if (next) {
-        next = operator.operate(next, '-1', 'x');
+        next = operator.operate(next, '-1', 'X');
       } else if (total) {
-        total = operator.operate(total, '-1', 'x');
+        total = operator.operate(total, '-1', 'X');
       }
     } else if (next === null && operation === null && total) {
-      next = btnName;
+      next = buttonName;
       total = null;
     } else if (next) {
-      if (btnName !== '.' || (btnName === '.' && next.indexOf(btnName) < 0)) {
-        next = next.concat(btnName);
+      if (buttonName !== '.' || (buttonName === '.' && next.indexOf(buttonName) < 0)) {
+        next = next.concat(buttonName);
       }
     } else {
-      next = btnName;
+      next = buttonName;
     }
     return {
       total,
@@ -56,7 +56,6 @@ const calculator = (() => {
       operation,
     };
   };
-
   return { calculate };
 })();
 

@@ -1,18 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display() {
+function Display({ result }) {
   return (
-    <div />
+    <div>
+      <p>{result}</p>
+    </div>
   );
 }
 
-Display.prototype = {
-  result: PropTypes.string.isRequired,
+Display.propTypes = {
+  result: PropTypes.string,
 };
 
 Display.defaultProps = {
-  result: 0,
+  result: '0',
 };
 
 export default Display;

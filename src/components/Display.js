@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Display({ result }) {
   return (
-    <div>
+    <div className="display">
       <p>{result}</p>
     </div>
   );

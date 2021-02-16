@@ -13,7 +13,7 @@ button:hover {
   background-color: #ffa500;
 }
 
-.button {
+.btn {
   display: flex;
   width: 25%;
 }
@@ -47,7 +47,7 @@ button:hover {
   padding: 10px;
   background-color: #808080;
   height: 100px;
-  color: #ffffff;
+  color: #fff;
   font-size: 50px;
   font-weight: 400;
 }

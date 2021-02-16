@@ -56,7 +56,7 @@ const App = () => {
     return result === '' ? undefined : result;
   };
   return (
-    <div>
+    <div className="App">
 
       <Display result={showResult(state)} />
       <ButtonPanel clickHandler={handleClick} />

@@ -20,8 +20,9 @@
 		"eject": "react-scripts eject",
 		"stylelint": "npx stylelint \"**/*.{css,scss}\"",
 		"lint": "npx eslint .",
-		"fix": "npx stylelint --fix \"**/*.{css,scss}\"",
-		"lintfix": "npx eslint --fix ."
+		"stylelintfix": "npx stylelint --fix \"**/*.{css,scss}\"",
+		"eslintfix": "npx eslint --fix .",
+		"lintfix": "npm run stylelintfix && npm run eslintfix"
 	},
 	"eslintConfig": {
 		"extends": [

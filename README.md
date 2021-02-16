@@ -1,8 +1,6 @@
 # Math-magicians-website
 
-### Milestone-one
-
-In this project milestone, it is required to build a very simple React application.
+In this project, it is required to build a very simple React application.
 This project is Math-magicians app that will help to build a simple product that would assist a company with their calculations..
 
 > ​

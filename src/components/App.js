@@ -5,15 +5,6 @@ import calculator from '../logic/calculate';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 
-// function App() {
-//   return (
-//     <>
-//       <Display />
-//       <ButtonPanel />
-//     </>
-//   );
-// }
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -29,18 +20,18 @@ class App extends Component {
     this.setState(calc);
   }
 
-  calcResult() {
-    const { total, next, operation } = this.state;
-    const result = `${total}${operation}${next}`.replace(/null/g, '');
-    return result === '' ? undefined : result;
-  }
-
   render() {
+    const showResult = state => {
+      const { total, next, operation } = state;
+      const result = `${total}${operation}${next}`.replace(/null/g, '');
+      return result === '' ? undefined : result;
+    };
     return (
-      <>
-        <Display result={this.result} />
+      <div className="App">
+
+        <Display result={showResult(this.state)} />
         <ButtonPanel clickHandler={this.handleClick} />
-      </>
+      </div>
     );
   }
 }

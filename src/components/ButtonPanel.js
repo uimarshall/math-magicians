@@ -1,9 +1,12 @@
-/* eslint-disable no-nested-ternary */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
 function ButtonPanel({ clickHandler }) {
+  const handleClick = buttonName => {
+    clickHandler(buttonName);
+  };
   return (
     <div>
       <div>

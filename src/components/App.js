@@ -1,9 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import '../App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import calculator from '../logic/calculate';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
+import Navbar from './Navbar';
+import Home from './Home';
 
 // class App extends Component {
 //   constructor(props) {
@@ -57,6 +60,21 @@ const App = () => {
   };
   return (
     <div className="App">
+      <Router>
+        <div className="App">
+          <Navbar />
+          <div className="content">
+
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+
+            </Switch>
+          </div>
+
+        </div>
+      </Router>
 
       <Display result={showResult(state)} />
       <ButtonPanel clickHandler={handleClick} />

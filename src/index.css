@@ -55,9 +55,9 @@ button:hover {
 
 /* Navbar */
 
-#logo{
+#logo {
   color: #f1f1f1;
-  padding: auto 1em;
+  padding: 0.5em 1em;
 }
 
 .main-nav {
@@ -80,10 +80,10 @@ button:hover {
 .main-nav li {
   margin-right: 1em;
 }
+
 .main-nav a {
   text-decoration: none;
   color: #ff4500;
-
 }
 
 .main-nav > .nav-links {
@@ -91,7 +91,8 @@ button:hover {
   justify-content: flex-end;
   flex: 1;
 }
-.nav-links li{
+
+.nav-links li {
   background: white;
   border: 0;
   border-radius: 1em;

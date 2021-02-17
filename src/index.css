@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100%;
+}
+
 main {
   padding: 1rem 0.1rem;
-
-  /* min-height: calc(100vh-60px); */
+  min-height: calc(100vh - 60px);
 }
 
 main#home {
@@ -35,14 +38,22 @@ main#home h1 {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
-    
+    text-align: center;
+  }
+
   .calc-info {
     grid-template-areas: "mathmagic" "calc" "calc";
-    grid-template-columns: 1fr; }
-   }
+    grid-template-columns: 1fr;
+  }
+}
 
-
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #5e5e5e;
+  color: #fff;
+  height: 60px;
+}
 
 button {
   width: 100%;

@@ -2,13 +2,11 @@
 
 import '../App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import calculator from '../logic/calculate';
-// import ButtonPanel from './ButtonPanel';
-// import Display from './Display';
 import Navbar from './Navbar';
 import Home from './Home';
 import Calculator from './Calculator';
 import Footer from './Footer';
+import Quote from './Quote';
 
 // class App extends Component {
 //   constructor(props) {
@@ -56,6 +54,9 @@ const App = () => (
             </Route>
             <Route path="/calculator">
               <Calculator />
+            </Route>
+            <Route path="/quote">
+              <Quote />
             </Route>
 
           </Switch>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <>
-    <section>
+    <main id="home">
       <h1>
         Welcome to our page!
       </h1>
@@ -24,7 +24,7 @@ const Home = () => (
         Excepteur sint occaecat cupidatat non proident, sunt in
         culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
       </p>
-    </section>
+    </main>
 
   </>
 );

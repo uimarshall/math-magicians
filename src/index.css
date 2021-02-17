@@ -22,6 +22,7 @@ main#home h1 {
 
 .quote blockquote {
   font-size: 3em;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .calc-info {
@@ -162,6 +163,11 @@ button:hover {
   border-radius: 1em;
   padding: 0.5em 1em;
   margin-left: 0.3em;
+}
+
+.nav-links a:hover {
+  color: #f3ae2d;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 575px) {

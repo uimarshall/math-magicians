@@ -1,12 +1,13 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+
 import '../App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import calculator from '../logic/calculate';
-import ButtonPanel from './ButtonPanel';
-import Display from './Display';
+// import calculator from '../logic/calculate';
+// import ButtonPanel from './ButtonPanel';
+// import Display from './Display';
 import Navbar from './Navbar';
 import Home from './Home';
+import Calculator from './Calculator';
 
 // class App extends Component {
 //   constructor(props) {
@@ -41,46 +42,28 @@ import Home from './Home';
 
 // export default App;
 
-const App = () => {
-  const [state, setState] = useState({
-    total: null,
-    next: null,
-    operation: null,
-  });
+const App = () => (
+  <div className="App">
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
 
-  const handleClick = buttonName => {
-    const calc = calculator.calculate(state, buttonName);
-    setState(calc);
-  };
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/calculator">
+              <Calculator />
+            </Route>
 
-  const showResult = state => {
-    const { total, next, operation } = state;
-    const result = `${total}${operation}${next}`.replace(/null/g, '');
-    return result === '' ? undefined : result;
-  };
-  return (
-    <div className="App">
-      <Router>
-        <div className="App">
-          <Navbar />
-          <div className="content">
-
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-
-            </Switch>
-          </div>
-
+          </Switch>
         </div>
-      </Router>
 
-      <Display result={showResult(state)} />
-      <ButtonPanel clickHandler={handleClick} />
+      </div>
+    </Router>
 
-    </div>
-  );
-};
+  </div>
+);
 
 export default App;

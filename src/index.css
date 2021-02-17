@@ -176,7 +176,14 @@ button:hover {
   }
 
   .main-nav ul {
-    flex-direction: row; /* Change this to 'column' to stack the links */
+    flex-direction: column; /* Change this to 'column' to stack the links */
     margin-bottom: 1em;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .nav-links li{
+    margin: 1em 0;
+
   }
 }

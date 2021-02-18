@@ -9,6 +9,11 @@ it('renders the button correctly', () => {
 
   expect(getByTestId('button')).toHaveTextContent('9');
 });
+it('renders the button correctly with different button name', () => {
+  const { getByTestId } = render(<Button name="6" wide={false} clickHandler={handleClick} />);
+
+  expect(getByTestId('button')).toHaveTextContent('6');
+});
 it('renders the button correctly', () => {
   const { getByTestId } = render(<Button name="9" wide={false} clickHandler={handleClick} />);
 

@@ -8,7 +8,7 @@ function Button({
   };
   return (
     <div className={wide ? 'wide' : 'btn'}>
-      <button type="button" className={color ? 'color' : null} onClick={() => handleClick(name)}>{name}</button>
+      <button data-testid="button" type="button" className={color ? 'color' : null} onClick={() => handleClick(name)}>{name}</button>
     </div>
   );
 }

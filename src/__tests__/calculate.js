@@ -1,6 +1,10 @@
 import Big from 'big.js';
 import calculations from '../logic/calculate';
 
+test('X button', () => {
+  const calculator = { total: '3', next: '6', operation: 'X' };
+  expect(calculations.calculate(calculator, '=')).toEqual({ total: Big(18), next: null, operation: null });
+});
 test('- button', () => {
   const calculator = { total: '3', next: '6', operation: '-' };
   expect(calculations.calculate(calculator, '=')).toEqual({ total: Big(-3), next: null, operation: null });

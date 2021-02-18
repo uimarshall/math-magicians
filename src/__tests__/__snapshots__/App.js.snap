@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+  data-testid="ancestor"
+>
+  <div
+    className="App"
+    data-testid="descendant"
+  >
+    <nav
+      className="main-nav"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            id="logo"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Math Magicians
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="nav-links"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="content"
+    >
+      <main
+        id="home"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+      </main>
+    </div>
+    <footer
+      id="main-footer"
+    >
+      copyright
+       
+      ©
+      2021
+       
+      |
+       
+      <span>
+        Math Magician
+      </span>
+       
+      all rights reserved.
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly 2`] = `
+<div
+  className="App"
+  data-testid="ancestor"
+>
+  <div
+    className="App"
+    data-testid="descendant"
+  >
+    <nav
+      className="main-nav"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            id="logo"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Math Magicians
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="nav-links"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="content"
+    >
+      <main
+        id="home"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+      </main>
+    </div>
+    <footer
+      id="main-footer"
+    >
+      copyright
+       
+      ©
+      2021
+       
+      |
+       
+      <span>
+        Math Magician
+      </span>
+       
+      all rights reserved.
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`App renders correctly 3`] = `
+<div
+  className="App"
+  data-testid="ancestor"
+>
+  <div
+    className="App"
+    data-testid="descendant"
+  >
+    <nav
+      className="main-nav"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            id="logo"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Math Magicians
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="nav-links"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/calculator"
+            onClick={[Function]}
+          >
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/quote"
+            onClick={[Function]}
+          >
+            Quote
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      className="content"
+    >
+      <main
+        id="home"
+      >
+        <h1>
+          Welcome to our page!
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+        </p>
+      </main>
+    </div>
+    <footer
+      id="main-footer"
+    >
+      copyright
+       
+      ©
+      2021
+       
+      |
+       
+      <span>
+        Math Magician
+      </span>
+       
+      all rights reserved.
+    </footer>
+  </div>
+</div>
+`;

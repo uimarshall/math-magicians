@@ -180,10 +180,9 @@ button:hover {
     margin-bottom: 1em;
     align-items: center;
     justify-content: center;
-    
   }
-  .nav-links li{
-    margin: 1em 0;
 
+  .nav-links li {
+    margin: 1em 0;
   }
 }

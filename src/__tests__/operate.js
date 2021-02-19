@@ -1,4 +1,3 @@
-
 import Big from 'big.js';
 import operator from '../logic/operate';
 

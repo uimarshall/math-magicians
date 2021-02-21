@@ -7,10 +7,10 @@ import Footer from './Footer';
 import Quote from './Quote';
 
 const App = () => (
-  <div className="App">
+  <div className="App" data-testid="ancestor">
     <Router>
-      <div className="App">
-        <Navbar />
+      <div className="App" data-testid="descendant">
+        <Navbar data-testid="menu" />
         <div className="content">
 
           <Switch>
